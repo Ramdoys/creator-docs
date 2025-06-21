@@ -25,7 +25,7 @@ On the audience page you can see a breakdown of your monthly active users into t
 | Top Languages     | The top 10 languages and their percentages spoken by monthly active users.                                                                                              |
 
 <Alert severity="info">
-For privacy reasons, if there are less than 3 users in any age or gender groups, the groups are hidden from the age and gender charts.
+For privacy reasons, if there are less than three users in any age or gender groups, the groups are hidden from the age and gender charts.
 </Alert>
 
 <figure>

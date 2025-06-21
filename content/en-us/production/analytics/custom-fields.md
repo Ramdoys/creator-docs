@@ -3,7 +3,7 @@ title: Custom fields
 description: Use custom fields as an additional analytics tool to track unique milestones in your experience.
 ---
 
-You can use up to 3 **custom fields** to filter your [economy](./economy-events.md), [funnel](./funnel-events.md), and [custom](./custom-events.md) events by unique dimensions specific to your experience. Some examples include:
+You can use up to three **custom fields** to filter your [economy](./economy-events.md), [funnel](./funnel-events.md), and [custom](./custom-events.md) events by unique dimensions specific to your experience. Some examples include:
 
 - Levels — 1, 2, 3, . . .
 - Player class — Warrior, Mage, Archer

@@ -199,7 +199,7 @@ Whatever you do, never make a `while true` loop without including a `task.wait()
 
 </Alert>
 
-Three seconds is a sensible starting point for the length of time between each platform state.
+3 seconds is a sensible starting point for the length of time between each platform state.
 
 1. In the while loop, call the `task.wait()` function with **3** in the parentheses.
 2. Call the `disappear` function.
@@ -215,7 +215,7 @@ while true do
 end
 ```
 
-The code for the platform is now complete! Test your code now and you should find that the platform disappears after three seconds and reappears three seconds later in a loop.
+The code for the platform is now complete! Test your code now and you should find that the platform disappears after 3 seconds and reappears 3 seconds later in a loop.
 
 You could duplicate this platform to cover a wider gap, but you need to change the wait times in each script. Otherwise, the platforms will all disappear at the same time and users will never be able to cross.
 

@@ -100,7 +100,7 @@ Each button on the validation tool performs a different check against the expect
 <li>Mapped Custom Properties under the Head_Geo exists</li>
 <li>Property name and values correctly set</li>
 <li>Corrective poses must include existing base poses </li>
-<li>Corrective poses do not use more than 3 base poses Refer to the output messages to manually resolve FACS data issues.</li></ul></dd><p />
+<li>Corrective poses do not use more than three base poses Refer to the output messages to manually resolve FACS data issues.</li></ul></dd><p />
 
 <dt>**Head Joint Names**</dt>
 <dd>Checks for duplicate head bone names, including duplicates with Blender's duplicate affixes .001, .002, .003, and such. Refer to the output messages to manually resolve face joint names.</dd><p />

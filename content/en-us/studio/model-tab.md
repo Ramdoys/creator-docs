@@ -266,7 +266,7 @@ The **Advanced** section contains tools to insert advanced objects, services, an
   </tr>
   <tr>
     <td>**ModuleScript**</td>
-    <td>Inserts a `Class.ModuleScript` into the selected `Class.Instance`. You can implement his type of script to reuse code across other scripts.</td>
+    <td>Inserts a `Class.ModuleScript` into the selected `Class.Instance`. You can implement this type of script to reuse code across other scripts.</td>
   </tr>
 </tbody>
 </table>

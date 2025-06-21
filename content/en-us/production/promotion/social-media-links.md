@@ -5,7 +5,7 @@ description: Explains how to engage with your audience by promoting your experie
 
 Social media links connect your audience to your social media, which you
 can use to market updates, monitor community feedback, and promote your
-experiences. You can add up to 3 social media links. For compliance
+experiences. You can add up to three social media links. For compliance
 reasons, **social links are only visible to 13+ users**.
 
 To link to social media:

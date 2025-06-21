@@ -110,7 +110,7 @@ UserInputService.MouseIcon = "rbxassetid://3400146391"
 
 ### Hide the icon
 
-You can hide the user's mouse icon by setting the `Class.UserInputService.MouseIconEnabled` to `false` in a `Class.LocalScript`. For example, the following code switches the mouse icon from visible to invisible and back every two seconds:
+You can hide the user's mouse icon by setting the `Class.UserInputService.MouseIconEnabled` to `false` in a `Class.LocalScript`. For example, the following code switches the mouse icon from visible to invisible and back every 2 seconds:
 
 ```lua highlight='5,7'
 local UserInputService = game:GetService("UserInputService")

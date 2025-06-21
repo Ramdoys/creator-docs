@@ -7,7 +7,7 @@ When you parent a `Class.UIPageLayout` to a UI container, every sibling `Class.G
 
 <img src="../assets/studio/explorer/UIPageLayout.png" width="320" />
 
-After you create multiple pages within the `Class.UIPageLayout`, you need to use scripting to transition from page to page. For example, the following code, pasted into a client‑side sibling `Class.Script` of the layout, transitions forward and then backward between the pages every two seconds.
+After you create multiple pages within the `Class.UIPageLayout`, you need to use scripting to transition from page to page. For example, the following code, pasted into a client‑side sibling `Class.Script` of the layout, transitions forward and then backward between the pages every 2 seconds.
 
 ```lua
 local frame = script.Parent

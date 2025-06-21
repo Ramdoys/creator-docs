@@ -341,7 +341,7 @@ Animators can often generate many keyframes during the course of animation, espe
 
 The Animation Editor automatically detects and removes unnecessary keyframes when creating [facial animations](../art/characters/facial-animation/animate-heads.md) and when [promoting a keyframe animation to a curve animation](../animation/curve-editor.md#open-the-curve-editor).
 
-If 3 or more consecutive keyframes have the same value in a track, the Animation Editor removes the intermediary keyframes and keeps only the first and last keyframes.
+If three or more consecutive keyframes have the same value in a track, the Animation Editor removes the intermediary keyframes and keeps only the first and last keyframes.
 
 If the track only contains keyframes with default values, such as an `Datatype.CFrame.identity|Identity Cframe`, or a `0` value for a curve animation, the entire track is removed from the animation.
 

@@ -101,7 +101,7 @@ The foyer where players place seals has a complicated contraption that undergoes
 
 ### RestorableManager
 
-Some grabbable objects are important for gameplay, such as seals, and we didn't want them to get lost if a player dropped them somewhere. If an object has a **Restorable** tag, the **RestorableManager** script remembers its transform when it is added to the restorable system. When a player drops such an object, the grabbing system calls `restorableManager.StartTracking`. If the object isn't picked up again in five seconds, the **RestorableManger** script positions it at the original transform and resets the tracking time.
+Some grabbable objects are important for gameplay, such as seals, and we didn't want them to get lost if a player dropped them somewhere. If an object has a **Restorable** tag, the **RestorableManager** script remembers its transform when it is added to the restorable system. When a player drops such an object, the grabbing system calls `restorableManager.StartTracking`. If the object isn't picked up again in 5 seconds, the **RestorableManger** script positions it at the original transform and resets the tracking time.
 
 ### Portals
 

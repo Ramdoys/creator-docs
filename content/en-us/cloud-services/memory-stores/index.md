@@ -47,7 +47,7 @@ Most API calls only consume one request unit, with a few exceptions:
 
 - `Class.MemoryStoreQueue:ReadAsync()`
 
-  Consumes units based on the number of returned items, just like `MemoryStoreSortedMap:GetRangeAsync()`, but consumes an additional unit every two seconds while reading. Specify the maximum read time with the `waitTimeout` parameter.
+  Consumes units based on the number of returned items, just like `MemoryStoreSortedMap:GetRangeAsync()`, but consumes an additional unit every 2 seconds while reading. Specify the maximum read time with the `waitTimeout` parameter.
 
 - `Class.MemoryStoreHashMap:UpdateAsync()`
 
@@ -90,7 +90,7 @@ To keep your memory usage pattern optimal and avoid hitting the [limits](#limits
 
 - Use [exponential backoff](https://en.wikipedia.org/wiki/Exponential_backoff) to help stay below API request limits.
 
-  For example, if you receive a `DataUpdateConflict`, you might retry after two seconds, then four, eight, etc. rather than constantly sending requests to `Class.MemoryStoreService` to get the correct response.
+  For example, if you receive a `DataUpdateConflict`, you might retry after 2 seconds, then four, eight, etc. rather than constantly sending requests to `Class.MemoryStoreService` to get the correct response.
 
 - Split giant data structures into multiple smaller ones by [sharding](<https://en.wikipedia.org/wiki/Shard_(database_architecture)>).
 

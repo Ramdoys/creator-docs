@@ -140,7 +140,7 @@ If you select a date range that includes a funnel step update, a warning display
 
 In order to keep your data clean, it is important to add some level of data validation in your server code to prevent exploiters from sending invalid data to your analytics service.
 
-For example, if you have an Onboarding funnel with 3 steps, you can use a `RemoteEvent` for the client to notify the server when the player has completed each step and add a server check to ensure that the step number is valid before logging the event:
+For example, if you have an Onboarding funnel with three steps, you can use a `RemoteEvent` for the client to notify the server when the player has completed each step and add a server check to ensure that the step number is valid before logging the event:
 
 ```lua title="Client-side event code"
 local ReplicatedStorage = game:GetService("ReplicatedStorage")

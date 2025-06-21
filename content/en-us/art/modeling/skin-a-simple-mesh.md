@@ -5,7 +5,7 @@ description: Explains the process for skinning a basic model in Blender.
 
 A skinned mesh is a rigged mesh that bends and flexes naturally when the internal skeleton rig is posed or animated. You can create a skinned mesh using a third party modeling tool such as [Blender](https://www.blender.org) or [Maya](https://www.autodesk.com/products/maya/overview). Skinning must be completed after the model is [rigged](./rigging.md).
 
-This guide covers the process for rigging and then skinning a simple tree model in Blender with 3 bones. For basics on rigging, see [Rig a simple mesh](./rig-a-simple-mesh.md) before continuing this guide.
+This guide covers the process for rigging and then skinning a simple tree model in Blender with three bones. For basics on rigging, see [Rig a simple mesh](./rig-a-simple-mesh.md) before continuing this guide.
 
 To skin a simple mesh, you need to:
 
@@ -97,7 +97,7 @@ To reposition the bone:
 
 ### Add additional bones
 
-In this guide, you need 3 bones within your mesh so the tree can move and rotate at three points.
+In this guide, you need three bones within your mesh so the tree can move and rotate at three points.
 
 To add additional bones into the armature:
 

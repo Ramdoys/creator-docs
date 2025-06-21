@@ -13,7 +13,7 @@ inherits:
   - Instance
 tags:
   - NotCreatable
-deprecation_message: ''
+deprecation_message: ""
 properties:
   - name: AnimationTrack.Animation
     summary: |
@@ -30,7 +30,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -62,7 +62,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -93,7 +93,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -129,7 +129,7 @@ properties:
       - AnimationTrack-DidLoop
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -179,7 +179,7 @@ properties:
     code_samples:
     type: AnimationPriority
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -222,7 +222,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -253,7 +253,7 @@ properties:
     type: float
     tags:
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -297,7 +297,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -344,7 +344,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -391,10 +391,10 @@ methods:
           The playback speed the animation is to be changed to.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -447,10 +447,10 @@ methods:
           weight and the new weight for.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -504,7 +504,7 @@ methods:
           The signal created and fired when the animation reaches the created
           `KeyFrameMarker`.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -540,7 +540,7 @@ methods:
           The time, in seconds, the `Class.Keyframe` occurs at normal playback
           speed.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -591,10 +591,10 @@ methods:
           The playback speed of the animation.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -612,7 +612,7 @@ methods:
       parameter.
 
       For example, if Stop is called with a fadeTime of 2 seconds it will take
-      two seconds for the weight of the `Class.AnimationTrack` to reach zero and
+      2 seconds for the weight of the `Class.AnimationTrack` to reach zero and
       its effects completely end. Please note this will be the case regardless
       of the initial weight of the animation.
 
@@ -630,10 +630,10 @@ methods:
           over.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -653,7 +653,7 @@ events:
       - AnimationTrack-DidLoop
     parameters: []
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -675,7 +675,7 @@ events:
       - AnimationTrack-Ended
     parameters: []
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -736,7 +736,7 @@ events:
       - AnimationTrack-Stopped
     parameters: []
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []

@@ -89,8 +89,7 @@ description: |
   attribute values, but sometimes you'll want different faces to use different
   attribute values on the same vertex. For example, on a smooth sphere, each
   vertex will only have a single normal. In contrast, at the corner of a cube,
-  the vertex will have 3 different normals (one for each adjacent face). You can
-  also have seams in the UV coordinates or sharp changes in the vertex colors.
+  the vertex will have three different normals (one for each adjacent face). You can also have seams in the UV coordinates or sharp changes in the vertex colors.
 
   When creating faces, every vertex will by default have one of each attribute:
   one normal, one UV coordinate, and one color/transparency. If you want to
@@ -158,7 +157,7 @@ inherits:
   - Object
 tags:
   - NotCreatable
-deprecation_message: ''
+deprecation_message: ""
 properties:
   - name: EditableMesh.FixedSize
     summary: |
@@ -171,7 +170,7 @@ properties:
     tags:
       - ReadOnly
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: RobloxSecurity
@@ -183,12 +182,12 @@ properties:
     capabilities: []
     writeCapabilities: []
   - name: EditableMesh.SkinningEnabled
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -222,7 +221,7 @@ methods:
         summary: |
           Stable color ID of the new color.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -246,7 +245,7 @@ methods:
         summary: |
           Stable normal ID of the new normal.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -278,7 +277,7 @@ methods:
         summary: |
           Stable face ID of the new face.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -300,7 +299,7 @@ methods:
         summary: |
           Stable UV ID of the new UV.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -322,7 +321,7 @@ methods:
         summary: |
           Stable vertex ID of the new vertex.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -336,9 +335,9 @@ methods:
     parameters: []
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -365,7 +364,7 @@ methods:
           Tuple of the face ID, point on the mesh in local object space, and the
           barycentric coordinate of the position within the face.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -388,7 +387,7 @@ methods:
         summary: |
           Closest stable vertex ID to the specified point in space.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -416,7 +415,7 @@ methods:
         summary: |
           List of stable vertex IDs within the requested sphere.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -433,13 +432,13 @@ methods:
       - name: faceId
         type: int64
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: Array
         summary: |
           List of face IDs adjacent to the given face.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -463,14 +462,14 @@ methods:
         summary: |
           List of IDs of adjacent vertices around the given vertex ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: EditableMesh:GetCenter
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
@@ -478,7 +477,7 @@ methods:
         summary: |
           Center of the bounding box of the `EditableMesh`.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -500,7 +499,7 @@ methods:
         summary: |
           Color for the requested stable color ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -522,7 +521,7 @@ methods:
         summary: |
           Color alpha at the request stable color ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -540,7 +539,7 @@ methods:
           List of stable color IDs.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -563,7 +562,7 @@ methods:
           List of color IDs used for the vertices on the given face.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -586,7 +585,7 @@ methods:
           List of normal IDs used for the vertices on the given face.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -609,7 +608,7 @@ methods:
           List of UV IDs used for the vertices on the given face.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -624,14 +623,14 @@ methods:
       - name: faceId
         type: int64
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: Array
         summary: |
           List of vertex IDs around the given face.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -649,7 +648,7 @@ methods:
           List of stable face IDs.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -672,7 +671,7 @@ methods:
         summary: |
           List of face IDs which use the given attribute ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -694,7 +693,7 @@ methods:
         summary: |
           Normal vector at the requested normal ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -712,7 +711,7 @@ methods:
           List of stable normal IDs.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -734,14 +733,14 @@ methods:
         summary: |
           Position of a vertex in the mesh's local object space.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: EditableMesh:GetSize
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
@@ -749,7 +748,7 @@ methods:
         summary: |
           Size of the `EditableMesh`.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -771,7 +770,7 @@ methods:
         summary: |
           UV coordinates at the requested UV ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -789,7 +788,7 @@ methods:
           List of stable UV IDs.
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -806,7 +805,7 @@ methods:
         summary: |
           List of stable vertex IDs.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -829,7 +828,7 @@ methods:
         summary: |
           List of vertex IDs which use the given attribute ID.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -852,7 +851,7 @@ methods:
         summary: |
           String that describes the ID in human-readable format.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -876,13 +875,13 @@ methods:
           A mapping of old vertex ID to new vertex ID for vertices that have
           been merged.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: EditableMesh:RaycastLocal
-    summary: ''
+    summary: ""
     description: |
       Casts a ray and returns a point of intersection, face ID, and barycentric
       coordinates. The inputs and outputs of this method are in the mesh's local
@@ -911,7 +910,7 @@ methods:
           Tuple of the point of intersection, face ID, and barycentric
           coordinates.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -926,12 +925,12 @@ methods:
       - name: faceId
         type: int64
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -950,7 +949,7 @@ methods:
         summary: |
           All of the removed stable IDs.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -970,9 +969,9 @@ methods:
           Stable normal ID to reset.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -996,9 +995,9 @@ methods:
           Color to set.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1022,9 +1021,9 @@ methods:
           Alpha to set.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1048,10 +1047,10 @@ methods:
           List of new stable color IDs to use for the given face's vertices.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1075,10 +1074,10 @@ methods:
           List of new stable normal IDs to use for the given face's vertices.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1102,10 +1101,10 @@ methods:
           List of new stable UV IDs to use for the given face's vertices.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1129,10 +1128,10 @@ methods:
           List of new stable vertex IDs to use for the given face.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - CustomLuaState
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1157,9 +1156,9 @@ methods:
           Normal vector to set.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1183,9 +1182,9 @@ methods:
           Position in the mesh's local object space.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1209,9 +1208,9 @@ methods:
           UV coordinates.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -1228,9 +1227,9 @@ methods:
     parameters: []
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []

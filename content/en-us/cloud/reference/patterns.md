@@ -89,7 +89,7 @@ fields:
 }
 ```
 
-Use the `Operation` object's path to poll for when the resource is ready. A good strategy is to use exponential backoff. For example, you might poll immediately, then after one second, two seconds, four seconds, etc.
+Use the `Operation` object's path to poll for when the resource is ready. A good strategy is to use exponential backoff. For example, you might poll immediately, then after 1 second, 2 seconds, 4 seconds, etc.
 
 ```python
 def PollForResults(operationPath):

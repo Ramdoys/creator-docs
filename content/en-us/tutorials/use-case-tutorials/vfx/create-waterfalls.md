@@ -520,7 +520,7 @@ To recreate the mist that moves outward and upward from the base of the main dro
    1. Orient **RiseMist** so that the top of the part that emits particles faces toward the sky.
    1. Select its child particle emitter, then in the **Properties** window,
       1. Set **Lifetime** to `4` to set each particle's lifetime to 4 seconds.
-      1. Set **Rate** to `3` to emit 3 particles per second.
+      1. Set **Rate** to `3` to emit three particles per second.
       1. Set **RotSpeed** to `-10, 10` to randomly emit each particle between -10 and 10 degrees per second.
       1. Set **Speed** to `25` to emit each particle 25 studs per second.
       1. Set **Acceleration** to `0, 0, 0` to remove the previous simulation.

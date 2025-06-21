@@ -288,7 +288,7 @@ The item will then go back to normal after a short time. This way, players only 
 5. Play the project and check:
 
    - The player only gets 1 item for harvesting an item.
-   - The item disappears and then reappears after five seconds.
+   - The item disappears and then reappears after 5 seconds.
 
    <video controls src="../../assets/education/adventure-game-series/adventure-harvestItemFull.mp4" width="100%"></video>
 

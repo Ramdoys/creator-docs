@@ -14,7 +14,7 @@ On Home, our **Recommended for You** algorithm decides what experiences to show 
 
 **Retrieval (stage 1)**: Roblox selects a subset of experiences that each user might enjoy playing based on signals like engagement, retention, monetization, friend plays, similar experiences, and variety.
 
-**Ranking (stage 2)**: Roblox ranks the selected experiences based on 3 main signals:
+**Ranking (stage 2)**: Roblox ranks the selected experiences based on three main signals:
 
 1. **Engagement (playtime)** tracks how users engage in your experience. Metrics that contribute to playtime include [session time](./production/analytics/engagement.md#improve-average-session-time), sessions, [retention](./production/analytics/retention.md), and [qualified play through rate](./production/analytics/acquisition.md#improve-acquisition). This is the main signal that we optimize for.
 2. **Monetization (revenue)** tracks how users invest in your experience. Metrics that contribute to revenue include [payer conversion](./production/analytics/monetization.md#improve-payer-conversion-rate) and [average revenue per paying user](./production/analytics/monetization.md#improve-average-revenue-per-paying-user-arppu).

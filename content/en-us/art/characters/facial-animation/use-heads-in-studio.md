@@ -132,8 +132,8 @@ Error messages indicate a failure to properly import a model with a head. Refere
       <td>Ensure that every joint that you import has a unique name.</td>
     </tr>
     <tr>
-      <td>Failed importing head with facial animation: Correctives can be for at most 3 control names.</td>
-      <td>Studio found a corrective with more than 3 corrective poses.  This isn't supported, so you need to delete the corrective.</td>
+      <td>Failed importing head with facial animation: Correctives can be for at most three control names.</td>
+      <td>Studio found a corrective with more than three corrective poses.  This isn't supported, so you need to delete the corrective.</td>
     </tr>
     <tr>
       <td>Failed importing head with facial animation: Unrecognized FACS control name X.</td>

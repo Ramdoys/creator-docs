@@ -1,6 +1,6 @@
 ---
 title: Body scale and proportions
-description: Avatars come in 3 different standard sizes, Classic, Rthro, Rthro Slender.
+description: Avatars come in three different standard sizes, Classic, Rthro, Rthro Slender.
 ---
 
 Roblox supports three common avatar sizes, known as **Classic**, **Rthro**, and **Rthro Slender**. This standard sizing helps keep avatar characters consistent, allowing developers to create experiences and environments that can fit commonly sized character models.

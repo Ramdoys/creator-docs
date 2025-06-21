@@ -22,7 +22,7 @@ inherits:
 tags:
   - NotCreatable
   - NotReplicated
-deprecation_message: ''
+deprecation_message: ""
 properties: []
 methods:
   - name: MemoryStoreQueue:AddAsync
@@ -51,10 +51,10 @@ methods:
           before items with lower priority.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - Yields
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -94,7 +94,7 @@ methods:
         summary: |
           The duration, in seconds, for which the method will wait if the
           required number of items is not immediately available in the queue.
-          Reads are attempted every two seconds during this period. This
+          Reads are attempted every 2 seconds during this period. This
           parameter can be set to zero to indicate no wait. If this parameter is
           not provided or set to -1, the method will wait indefinitely.
     returns:
@@ -106,7 +106,7 @@ methods:
           permanently remove these items from the queue.
     tags:
       - Yields
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -130,10 +130,10 @@ methods:
           `Class.MemoryStoreQueue:ReadAsync()`.
     returns:
       - type: void
-        summary: ''
+        summary: ""
     tags:
       - Yields
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
