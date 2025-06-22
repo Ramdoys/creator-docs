@@ -888,7 +888,7 @@ methods:
       object space.
 
       A **barycentric coordinate** is a way of specifying a point within a face
-      as a weighted combination of the 3 vertices of the face. This is useful as
+      as a weighted combination of the three vertices of the face. This is useful as
       a general way of blending vertex attributes. See this method's code sample
       as an illustration.
     code_samples:

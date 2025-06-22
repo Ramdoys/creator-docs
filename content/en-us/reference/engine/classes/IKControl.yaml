@@ -50,7 +50,7 @@ code_samples:
 inherits:
   - Instance
 tags: []
-deprecation_message: ''
+deprecation_message: ""
 properties:
   - name: IKControl.ChainRoot
     summary: |
@@ -65,14 +65,14 @@ properties:
       the two to move the `Class.IKControl.EndEffector|EndEffector` to the
       `Class.IKControl.Target|Target`. For example, if you specify the LeftHand
       as `Class.IKControl.EndEffector|EndEffector` and LeftUpperArm as the
-      `Class.IKControl.ChainRoot|ChainRoot`, the control moves 3 parts: the
+      `Class.IKControl.ChainRoot|ChainRoot`, the control moves three parts: the
       LeftHand, the LeftLowerArm, and the LeftUpperArm. Avoid setting
       `Class.IKControl.ChainRoot|ChainRoot` as the actual root of the character
       because that produces unrealistic results.
     code_samples: []
     type: Instance
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -94,7 +94,7 @@ properties:
     code_samples: []
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -126,7 +126,7 @@ properties:
     code_samples: []
     type: Instance
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -166,7 +166,7 @@ properties:
     code_samples: []
     type: CFrame
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -197,7 +197,7 @@ properties:
     code_samples: []
     type: CFrame
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -232,7 +232,7 @@ properties:
     code_samples: []
     type: Instance
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -261,7 +261,7 @@ properties:
     code_samples: []
     type: int
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -291,7 +291,7 @@ properties:
     code_samples: []
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -320,7 +320,7 @@ properties:
     code_samples: []
     type: Instance
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -352,7 +352,7 @@ properties:
     code_samples: []
     type: IKControlType
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -383,7 +383,7 @@ properties:
     code_samples: []
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -397,93 +397,93 @@ properties:
     writeCapabilities: []
 methods:
   - name: IKControl:GetChainCount
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
       - type: int
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: IKControl:GetChainLength
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
       - type: float
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: IKControl:GetNodeLocalCFrame
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters:
       - name: index
         type: int
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: CFrame
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: IKControl:GetNodeWorldCFrame
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters:
       - name: index
         type: int
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: CFrame
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: IKControl:GetRawFinalTarget
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
       - type: CFrame
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
     writeCapabilities: []
   - name: IKControl:GetSmoothedFinalTarget
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     parameters: []
     returns:
       - type: CFrame
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []

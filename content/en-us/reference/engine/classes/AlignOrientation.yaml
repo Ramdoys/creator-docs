@@ -27,7 +27,7 @@ description: |
   `Enum.AlignType|PrimaryAxisPerpendicular` or
   `Enum.AlignType|PrimaryAxisLookAt`, torque will only occur when the primary
   axes become misaligned. Otherwise, the constraint will apply torque about all
-  3 axes to achieve alignment.
+  three axes to achieve alignment.
 
   #### Reactionary Torque
 
@@ -56,7 +56,7 @@ code_samples:
 inherits:
   - Constraint
 tags: []
-deprecation_message: ''
+deprecation_message: ""
 properties:
   - name: AlignOrientation.AlignType
     summary: |
@@ -72,7 +72,7 @@ properties:
     code_samples:
     type: AlignType
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -97,7 +97,7 @@ properties:
     code_samples:
     type: CFrame
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -123,7 +123,7 @@ properties:
     type: Vector3
     tags:
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -149,7 +149,7 @@ properties:
     code_samples:
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -175,7 +175,7 @@ properties:
     code_samples:
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -214,7 +214,7 @@ properties:
     code_samples:
     type: OrientationAlignmentMode
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -238,7 +238,7 @@ properties:
     type: Vector3
     tags:
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -295,7 +295,7 @@ properties:
     code_samples:
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -317,7 +317,7 @@ properties:
     code_samples:
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -344,7 +344,7 @@ properties:
     code_samples:
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -368,7 +368,7 @@ properties:
     type: Vector3
     tags:
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None

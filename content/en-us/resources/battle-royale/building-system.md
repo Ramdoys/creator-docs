@@ -22,7 +22,7 @@ To maintain an orderly and structured system:
 
 In order for users to build new tiles quickly and easily, the building system needs to understand which tiles are connected to each other and where new tiles can be placed on the grid.
 
-Tiles use 3 components: the [visual asset](#asset) that is used as the tile object, information about the [space the tile occupies](#occupancy) in reference to other world objects, and the [connection points](#connectivity) of a tile which allow additional tiles to connect to available edges.
+Tiles use three components: the [visual asset](#asset) that is used as the tile object, information about the [space the tile occupies](#occupancy) in reference to other world objects, and the [connection points](#connectivity) of a tile which allow additional tiles to connect to available edges.
 
 ### Asset
 

@@ -28,7 +28,7 @@ local _roleStages = {
 }
 ```
 
-There are 3 different roles that a place can have:
+There are three different roles that a place can have:
 
 - **Lobby** — Initial place where options like game mode are selected.
 - **Queue** — Where a cohort of players gather for a particular game mode, building and fighting while waiting for the configured number of minimum players. Once the minimum numbers of players have arrived, a countdown will start, currently configured for 3:00 minutes, at the end of which gameplay will be initiated.

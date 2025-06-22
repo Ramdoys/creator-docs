@@ -7,7 +7,7 @@ summary: |
 description: |
   `Class.AudioEqualizer` adjusts the frequency content of audio streams. It
   provides one **Input** pin and one **Output** pin which can be connected
-  to/from by `Class.Wire|Wires`. `Class.AudioEqualizer` has 3 frequency bands
+  to/from by `Class.Wire|Wires`. `Class.AudioEqualizer` has three frequency bands
   whose gain values can be controlled, and the crossover points between bands
   can be moved.
 code_samples:
@@ -15,7 +15,7 @@ code_samples:
 inherits:
   - Instance
 tags: []
-deprecation_message: ''
+deprecation_message: ""
 properties:
   - name: AudioEqualizer.Bypass
     summary: |
@@ -25,7 +25,7 @@ properties:
     code_samples: []
     type: bool
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -38,13 +38,13 @@ properties:
       - Audio
     writeCapabilities: []
   - name: AudioEqualizer.Editor
-    summary: ''
-    description: ''
+    summary: ""
+    description: ""
     code_samples: []
     type: bool
     tags:
       - NotReplicated
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: RobloxScriptSecurity
       write: RobloxScriptSecurity
@@ -66,7 +66,7 @@ properties:
     code_samples: []
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -88,7 +88,7 @@ properties:
     code_samples: []
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -110,7 +110,7 @@ properties:
     code_samples: []
     type: float
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -135,7 +135,7 @@ properties:
     code_samples: []
     type: NumberRange
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security:
       read: None
       write: None
@@ -160,12 +160,12 @@ methods:
       - name: pin
         type: string
         default:
-        summary: ''
+        summary: ""
     returns:
       - type: Instances
-        summary: ''
+        summary: ""
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
@@ -203,7 +203,7 @@ events:
         summary: |
           The other instance that is or was connected through the `Class.Wire`.
     tags: []
-    deprecation_message: ''
+    deprecation_message: ""
     security: None
     thread_safety: Unsafe
     capabilities: []
